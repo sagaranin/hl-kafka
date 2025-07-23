@@ -28,7 +28,6 @@ services:
 
   kafka-ui:
     image: provectuslabs/kafka-ui:latest
-    container_name: kafka-ui
     restart: always
     ports:
       - "28080:8080"
