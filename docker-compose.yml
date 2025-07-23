@@ -4,7 +4,6 @@ services:
     image: confluentinc/cp-kafka:7.9.2
     hostname: broker
     restart: always
-    container_name: broker
     ports:
       - "9092:9092"
     volumes:
